@@ -77,7 +77,7 @@ h1 {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
   .foto {
     width: 150px;
     height: 150px;
