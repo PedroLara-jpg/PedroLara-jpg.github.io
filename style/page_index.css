@@ -33,8 +33,8 @@ body {
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #00bcd4;
-  box-shadow: 0 0 20px rgba(0, 188, 212, 0.4);
+  border: 3px solid #d40000;
+  box-shadow: 0 0 50px rgba(212, 0, 0, 0.4);
   transition: transform 0.4s ease;
 }
 
@@ -45,7 +45,7 @@ body {
 
 h1 {
   font-size: 2.1rem;
-  color: #00bcd4;
+  color: #d40000;
   letter-spacing: 1px;
 }
 
@@ -63,8 +63,8 @@ h1 {
 }
 
 .links a {
-  color: #00bcd4;
-  border: 1px solid #00bcd4;
+  color: #d40000;
+  border: 1px solid #d40000;
   padding: 10px 20px;
   border-radius: 25px;
   text-decoration: none;
@@ -72,7 +72,7 @@ h1 {
 }
 
 .links a:hover {
-  background-color: #00bcd4;
+  background-color: #d40000;
   color: #000;
 }
 
