@@ -8,9 +8,38 @@
 
 
 body {
-  background-color: #000; /* preto absoluto */
   color: #f5f5f5;
 }
+
+
+.navbar {
+  transition: all 0.3s ease;
+}
+
+#sobre {
+  scroll-margin-top: 80px;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #ddd !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d40000 !important;
+}
+
+
+body {
+  padding-top: 70px; 
+}
+
 
 .foto {
   width: 250px;
