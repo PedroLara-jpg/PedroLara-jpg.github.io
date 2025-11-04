@@ -85,23 +85,23 @@ body {
 }
 
 
-@media (max-width: 450px) {
-  .foto {
-    width: 150px;
-    height: 150px;
+@media (min-width: 992px) {
+  #carouselProjetos img {
+    max-height: 500px; 
   }
+}
 
   .descricao {
     font-size: 1rem;
   }
-}
+
 
 
 #carouselProjetos img {
-  max-height: 300px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
-
 .carousel-indicators [data-bs-target] {
   background-color: #d40000;
 }
