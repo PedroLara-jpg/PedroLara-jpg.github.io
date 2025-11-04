@@ -81,7 +81,7 @@ body {
 
 @media (min-width: 992px) {
   #carouselProjetos img {
-    max-height: 501px; 
+    max-height: 500px; 
   }
 }
 
