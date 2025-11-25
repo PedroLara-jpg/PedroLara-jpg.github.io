@@ -1,4 +1,6 @@
 
+
+
 const element = document.getElementById("typing");
 const palavras = ["desenvolvedor web", "frontend developer", "criador de interfaces"];
 let palavraIndex = 0;
