@@ -36,8 +36,8 @@ body {
 
 
 .foto {
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #d40000;
@@ -54,14 +54,28 @@ body {
 .nome {
   color: #d40000;
   letter-spacing: 1px;
+  font-size: 50px;
 }
 
+#typing {
+  border-right: 2px solid #d40000;
+  padding-right: 4px;
+  animation: blink 0.7s infinite;
+  color: #d40000;
+}
+
+@keyframes blink {
+  0% { border-color: transparent; }
+  50% { border-color: rgb(255, 0, 0); }
+  100% { border-color: transparent; }
+}
 
 .descricao {
   font-size: 1.1rem;
   color: #ddd;
   line-height: 1.6;
 }
+
 
 
 .btn-outline-danger {
